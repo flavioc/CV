@@ -1,0 +1,147 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font  
+\topmargin=-0.5in  % start text higher on the page
+\setlength{\textheight}{12in} % increase text height to fit resume on 1 page
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\begin{document}
+\name{FLÁVIO CRUZ}
+
+\address{Rua 1º de Maio, nº 48 \\   3515-560 Bodiosa, Portugal \\   (+351) 936 229 412 \\ flaviocruz@gmail.com \\ \url{http://cs.cmu.edu/~fmfernan}}
+
+\begin{resume}
+
+\section{EDUCATION}       Faculdade de Engenharia da Universidade do Porto \\
+                Integrated Masters in Informatics and Computing Engineering (2005-2010) \\
+                Grade average of 18 out of 20 (top 2\%)
+                
+                Carnegie Mellon University and University of Porto \\
+                PhD in Computer Science (2011-2015) \\
+                Research on a linear logic programming language for parallel programming \\
+                Advised by Seth Goldstein (\url{seth@cs.cmu.edu}), Frank Pfenning (\url{fp@cs.cmu.edu}) and Ricardo Rocha (\url{ricroc@fc.up.pt})\\
+
+\section{INTERESTS}
+
+                 \begin{itemize}
+                    \item Implementation of Programming Languages
+                    \item Parallel and Distributed Programming
+                    \item Logic and Proof Theory
+                 \end{itemize}
+                  
+\section{SKILLS} 
+\normalsize{\section{Programming Languages}}
+                 \begin{itemize}
+                 \item C, C++, Common Lisp, Haskell, Coq
+                 \item Prolog, SQL, Javascript, Python
+                 \end{itemize}
+                 
+\normalsize{\section{Technologies}} 
+                 \begin{itemize}
+                  \item Subversion, git, MySQL, Vim, TextMate
+                  \item Linux, Windows, MacOSX, GNU Hurd
+                  \end{itemize}
+                  
+\normalsize{\section{Others}}
+              \begin{itemize}
+                \item Web Development: HTML, CSS, jQuery, JSON, XML
+              \end{itemize}
+
+\section{EXPERIENCE}
+            
+                  \begin{tabular}{p{3in} r}
+                  Google Inc. - Google Summer of Code 2008 & Summer of 2008
+                  \end{tabular}	
+                   \begin{itemize} % \item[] prevents a bullet from appearing
+                    \item[]  Design and implementation of a filesystem library written in Common Lisp for easy development of filesystem servers. Library developed for the GNU Hurd project. 
+		   \end{itemize} 
+		   
+		 \begin{tabular}{p{3in} r}
+                  Scholarship at IBMC &  From November 2008 to November 2009 
+                 \end{tabular}
+		  \begin{itemize}
+                   \item[] Design and implementation of a flexible biological database. Supervised by Nuno Fonseca.
+                  \end{itemize}
+                  
+                 \begin{tabular}{p{3in} r} % one column is 3 inches wide
+                  Faculdade de Engenharia UP &  From March 2009 to June 2009
+                 \end{tabular}
+                  \begin{itemize}					        
+                   \item[] Undergraduate Teaching Assistant for the Programming 2 course (Masters in Electrical and Computers Engineering). Supported students in the development of a small project written in C++, with a focus on object oriented programming.
+                  \end{itemize}
+                  
+                  \begin{tabular}{p{3in} r} % one column is 3 inches wide
+                    Faculdade de Engenharia UP &  From October 2009 to December 2009
+                   \end{tabular}
+                    \begin{itemize}					        
+                     \item[] Undergraduate Teaching Assistant for the Graphical Applications Laboratory course (Integrated Masters in Informatics and Computer Engineering). Supported students during the development of various OpenGL/C++ projects.
+                    \end{itemize}
+                    
+                  \begin{tabular}{p{3in} r}
+                    Scholarship at CRACS/FCUP & From February 2010 to June 2010
+                  \end{tabular}
+                  \begin{itemize}
+                    \item[] Implementation of a tabling engine based on \textit{call-subsumption} semantics for Yap Prolog. Supervised by Ricardo Rocha.
+                  \end{itemize}
+                  
+                  \begin{tabular}{p{3in} r}
+                    Summer Internship at CMU / Intel Research Labs & From July 2010 to October 2010
+                  \end{tabular}
+                  \begin{itemize}
+                    \item[] Extending the Meld language and runtime to program parallel systems. Work supervised by Seth Copen Goldstein.
+                  \end{itemize}
+                  \clearpage
+                  
+                  \begin{tabular}{p{3in} r} % one column is 3 inches wide
+                    Faculdade de Ciencias UP &  From September 2013 to January 2014
+                   \end{tabular}
+                    \begin{itemize}					        
+                     \item[] Graduate Teaching Assistant for the Parallel and Distributed Programming course (Masters in Computer Science). Designed the student assignments using MPI and Pthreads and helped students during lab classes.
+                    \end{itemize}
+
+\section{OTHERS} Merit Scholarship "Ribas de Sousa 2002/2003", awarded by Escola Secundária Emídio Navarro to the best student on the 10º grade. \\
+                  “Prémio Incentivo”, awarded by University of Porto to the best students finishing the first year of their degrees. \\
+                  Participation on CPUP 2007 (Programming Contest) with Miguel Oliveira and João Azevedo. 2nd place among 8 teams. \\
+                  
+\section{PUBLICATIONS}
+   \begin{itemize}
+      \item Bottom-Up Logic Programming for Multicores. Flavio Cruz, Michael P. Ashley-Rollman, Seth Copen Goldstein, Ricardo Rocha and Frank Pfenning. Declarative Aspects and Applications of Multicore Programming (DAMP 2012). Philadelphia, PA, USA.
+      \item Single Time-Stamped Tries for Retroactive Call Subsumption. Flávio Cruz and Ricardo Rocha. Proceedings of the 11th Colloquium on Implementation of Constraint and LOgic Programming Systems (CICLOPS 2011). Lexington, Kentucky, USA.
+      \item Efficient Instance Retrieval of Subgoals for Subsumptive Tabled Evaluation of Logic Programs. Flávio Cruz and Ricardo Rocha. 27th International Conference on Logic Programming (ICLP 2011). Lexington, Kentucky, USA.
+      %\item BioSeD: A Biological Sequences Database. Flávio Cruz, Cristina Vieira, Jorge Vieira, Nuno A. Fonseca.
+      % Oxford Journal of Bioinformatics. (In Progress).
+      \item BioSeD - Biological Sequences Database. Flávio Cruz. Technical Report. Institute for Molecular and Cell Biology. 2009.
+      \item Call Subsumption Mechanisms for Tabled Logic Programs. Flávio Cruz. MSc in Informatics and Computing Engineering, Department of Informatics Engineering, Faculty of Engineering, University of Porto. Portugal, June 2010.
+      \item Retroactive Subsumption-Based Tabled Evaluation of Logic Programs.
+      Flávio Cruz and Ricardo Rocha. 12th European Conference on Logics in Artificial Intelligence (JELIA 2010), Springer-Verlag. Helsinki, Finland, September 2010.
+      \item Efficient Retrieval of Subsumed Subgoals in Tabled Logic Programs.
+      Flávio Cruz and Ricardo Rocha. 4th International Conference on Compilers, Programming Languages, Related Technologies and Applications (CoRTA 2010). Braga, Portugal, September 2010.
+   \end{itemize}
+   
+\section{SCHOOLS}
+   \begin{itemize}
+      \item WACS: Winter Advanced Computing Seminars 2011, Braga, Portugal.
+      \item ISCL 2011: Third International ALP/GULP Spring School on Computational Logic, Bertinoro, Italy.
+   \end{itemize}
+
+\section{LANGUAGES}
+      \begin{itemize}
+        \item Portuguese: native speaker.
+        \item English: experienced in reading, writing and speaking.
+      \end{itemize}
+
+\section{PERSONAL INTERESTS}
+
+   \begin{itemize}
+      \item Electronic Music Production
+      \item Powerlifting
+   \end{itemize}
+
+\end{resume}
+
+\end{document}
